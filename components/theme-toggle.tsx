@@ -25,10 +25,14 @@ export function ThemeToggle() {
     <Button
       variant="ghost"
       size="icon"
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      onClick={() => {
+        // Si le thème est system ou undefined, on détermine le thème actuel via document
+        const currentTheme = theme === "dark" || (theme === "system" && document.documentElement.classList.contains("dark")) || (!theme && document.documentElement.classList.contains("dark")) ? "dark" : "light";
+        setTheme(currentTheme === "dark" ? "light" : "dark");
+      }}
       className="w-10 h-10"
     >
-      {theme === "dark" ? (
+      {theme === "dark" || (theme === "system" && document.documentElement.classList.contains("dark")) || (!theme && document.documentElement.classList.contains("dark")) ? (
         <Sun className="h-5 w-5 transition-all" />
       ) : (
         <Moon className="h-5 w-5 transition-all" />

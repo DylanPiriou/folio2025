@@ -16,6 +16,8 @@ export default function Work() {
                 <div className="flex items-center gap-3 mb-2">
                   <a 
                     href={project.link}
+					target="_blank"
+					rel="noopener noreferrer"
                     className="text-lg font-medium text-slate-900 dark:text-white hover:text-slate-600 dark:hover:text-slate-300 transition-colors cursor-pointer"
                   >
                     {project.name}
@@ -37,6 +39,8 @@ export default function Work() {
                 href={project.link} 
                 className="self-start sm:self-auto p-2 text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors"
                 aria-label={`View ${project.name}`}
+				target="_blank"
+				rel="noopener noreferrer"
               >
                 <ExternalLink className="w-4 h-4" />
               </a>

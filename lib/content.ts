@@ -97,28 +97,28 @@ export const content = {
     title: "Recent Projects",
     projects: [
       {
-        name: "E-commerce Platform",
-        description: "Modern e-commerce platform with Next.js and Stripe integration",
-        tech: ["Next.js", "TypeScript", "Stripe"],
-        link: "#"
+        name: "Bungalow",
+        description: "Modern platform for french DOM TOM hotels, with a focus on eco-friendly and sustainable tourism",
+        tech: ["Next.js", "TypeScript", "TailwindCSS", "Strapi"],
+        link: "https://bungalow.fr"
       },
       {
-        name: "Analytics Dashboard",
-        description: "Real-time data analytics interface with interactive charts",
-        tech: ["React", "D3.js", "PostgreSQL"],
-        link: "#"
+        name: "La Boulangère",
+        description: "E-commerce website for a French brand of organic breads and pastries, committed to local and responsible production",
+        tech: ["WordPress", "WooCoomerce", "SCSS", "WordPress"],
+        link: "https://laboulangere.fr"
       },
       {
-        name: "Mobile Task App",
-        description: "Cross-platform task management application",
-        tech: ["React Native", "Expo", "Supabase"],
-        link: "#"
+        name: "Backers",
+        description: "Social network for finding construction and renovation services",
+        tech: ["React", "TailwindCSS", "WordPress", "REST API", "Stripe"],
+        link: "https://backers.fr/"
       },
       {
-        name: "SaaS Platform",
-        description: "Complete SaaS solution with authentication and billing",
-        tech: ["Next.js", "Supabase", "Tailwind"],
-        link: "#"
+        name: "AnalyseTonProd",
+        description: "Web application for drug prevention and analysis",
+        tech: ["React", "TailwindCSS", "WordPress", "REST API"],
+        link: "https://analysetonprod.fr"
       }
     ]
   },
