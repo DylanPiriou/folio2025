@@ -2,6 +2,7 @@ export const content = {
   // Hero Section
   hero: {
     status: "Available for projects",
+    name: "@dylanpiriou",
     title: "Fullstack Developer",
     description: "Fullstack developer with a passion for creating elegant and performant user interfaces. I love transforming complex ideas into simple and intuitive experiences.",
     buttons: {

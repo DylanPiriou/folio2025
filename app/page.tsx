@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Work from "@/components/Work";
 import Skills from "@/components/Skills";
 import Hero from "@/components/Hero";
+import { content } from "@/lib/content";
 
 export default function Home() {
 	return (
@@ -17,7 +18,8 @@ export default function Home() {
 			></div>
 
 			<div className="max-w-5xl mx-auto px-6 py-16 sm:px-8 relative">
-				<nav className="flex justify-end mb-8">
+				<nav className="flex justify-between items-center w-full mb-8">
+				<span className="text-sm lg:text-base tracking-tight">{content.hero.name}</span>
 					<ThemeToggle />
 				</nav>
 				<Hero/>
