@@ -8,7 +8,7 @@ export default function Hero() {
 		<section className="mb-24">
 			<div className="flex flex-col gap-6 lg:gap-8">
 				<div className="flex max-lg:flex-col gap-6 lg:gap-8">
-					<div className="relative w-28 h-28 lg:w-32 lg:h-32 aspect-square rounded-full overflow-hidden flex-shrink-0">
+					<div className="relative w-28 h-28 aspect-square rounded-full overflow-hidden flex-shrink-0">
 						<Image
 							src="/dylanweb.jpg"
 							fill
