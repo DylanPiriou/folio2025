@@ -10,19 +10,20 @@ export default function Work() {
       </h2>
       <div className="space-y-8">
         {content.work.projects.map((project, index) => (
-          <div key={index} className="group border-b border-slate-200 dark:border-slate-800 pb-8 last:border-b-0">
+          <a 
+            key={index} 
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+			title={project.name}
+            className="group block rounded-lg transition-colors duration-200"
+          >
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2">
-                  <a 
-                    href={project.link}
-					target="_blank"
-					rel="noopener noreferrer"
-                    className="text-lg font-medium text-slate-900 dark:text-white hover:text-slate-600 dark:hover:text-slate-300 transition-colors cursor-pointer"
-                  >
+                  <h3 className="text-lg font-medium text-slate-900 dark:text-white group-hover:text-slate-600 dark:group-hover:text-slate-300 transition-colors">
                     {project.name}
-                  </a>
-                  <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-slate-600 dark:group-hover:text-slate-300 transition-colors" />
+                  </h3>
                 </div>
                 <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400 mb-3">
                   {project.description}
@@ -35,17 +36,11 @@ export default function Work() {
                   ))}
                 </div>
               </div>
-              <a 
-                href={project.link} 
-                className="self-start sm:self-auto p-2 text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors"
-                aria-label={`View ${project.name}`}
-				target="_blank"
-				rel="noopener noreferrer"
-              >
+              <div className="self-start sm:self-auto p-2 text-slate-400 group-hover:text-slate-900 dark:group-hover:text-white transition-colors">
                 <ExternalLink className="w-4 h-4" />
-              </a>
+              </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </section>
