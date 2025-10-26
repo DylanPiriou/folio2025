@@ -21,7 +21,7 @@ export default function Work() {
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2">
-                  <h3 className="text-lg font-medium text-slate-900 dark:text-white group-hover:text-slate-600 dark:group-hover:text-slate-300 transition-colors">
+                  <h3 className="text-lg font-medium text-slate-900 dark:text-white">
                     {project.name}
                   </h3>
                 </div>
