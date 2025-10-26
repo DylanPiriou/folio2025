@@ -124,6 +124,28 @@ export const content = {
     ]
   },
 
+  // Jobs Section
+  jobs: {
+    title: "Companies I've worked with",
+    experiences: [
+      {
+        title: "Fullstack Developer",
+        company: "LATELIER",
+        period: "sept 2023 - Present",
+      },
+      {
+        title: "Frontend Developer",
+        company: "GONG",
+        period: "may 2023 - jun 2023",
+      },
+      {
+        title: "Frontend Developer",
+        company: "DIIVII",
+        period: "dec 2022 - feb 2023",
+      }
+    ]
+  },
+
   // Footer
   footer: {
     copyright: "© 2025 Portfolio. All rights reserved.",

@@ -1,5 +1,6 @@
 import { ThemeToggle } from "@/components/theme-toggle";
 import Footer from "@/components/Footer";
+import Jobs from "@/components/Jobs";
 import Work from "@/components/Work";
 import Skills from "@/components/Skills";
 import Hero from "@/components/Hero";
@@ -25,6 +26,7 @@ export default function Home() {
 				<Hero/>
 				<Skills/>
 				<Work/>
+				<Jobs/>
 				<Footer/>
 			</div>
 		</main>
