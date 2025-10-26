@@ -13,6 +13,7 @@ export default function Hero() {
 							src="/dylanweb.jpg"
 							fill
 							alt="Dylan - Fullstack Developer"
+							priority
 							className="object-cover backdrop-brightness-100"
 						></Image>
 					</div>
