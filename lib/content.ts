@@ -11,7 +11,7 @@ export const content = {
       linkedin: "LinkedIn"
     },
     links: {
-      email: "mailto:pirioudylan@gmail.com",
+      email: "mailto:contact@dylanpiriou.com",
       github: "https://github.com/dylanpiriou",
       linkedin: "https://linkedin.com/in/dylanpiriou"
     }
