@@ -4,7 +4,7 @@ export const content = {
     status: "Available for projects",
     name: "Dylan Piriou",
     title: "Fullstack Developer",
-    description: "Full-stack dev @ LATELIER. I turn complexity into clean, fast, user-focused web experiences. 3 years of learning, building, and improving — every single day. Also a history nerd, music lover, and runner.",
+    description: "Full-stack developer @ LATELIER. I turn complexity into clean, fast, user-focused web experiences. 3 years of learning, building, and improving — every single day. Also a history nerd, music lover, and runner.",
     buttons: {
       contact: "Get in touch",
       github: "GitHub",
