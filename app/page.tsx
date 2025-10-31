@@ -19,7 +19,7 @@ export default function Home() {
 			></div>
 
 			<div className="max-w-4xl mx-auto px-6 py-16 sm:px-8 relative">
-				<nav className="flex justify-between items-center w-full mb-8">
+				<nav className="flex justify-between items-center w-full mb-24">
 				<span className="text-xs lg:text-sm font-semibold tracking-tight">{content.hero.name}</span>
 					<ThemeToggle />
 				</nav>
