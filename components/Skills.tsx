@@ -15,11 +15,11 @@ export default function Skills() {
                 href={tech.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-900 dark:text-white font-medium hover:text-slate-600 dark:hover:text-slate-300 transition-colors"
+                className="text-sm lg:text-base text-slate-900 dark:text-white font-medium hover:text-slate-600 dark:hover:text-slate-300 transition-colors"
               >
                 {tech.name} —
               </a>
-              <span className="text-sm sm:text-base text-slate-600 dark:text-slate-400 italic ml-1">
+              <span className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 italic ml-1">
                 {tech.description}
               </span>
             </div>

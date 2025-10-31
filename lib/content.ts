@@ -2,7 +2,7 @@ export const content = {
   // Hero Section
   hero: {
     status: "Available for projects",
-    name: "@dylanpiriou",
+    name: "Dylan Piriou",
     title: "Fullstack Developer",
     description: "Fullstack developer with a passion for creating elegant and performant user interfaces. I love transforming complex ideas into simple and intuitive experiences.",
     buttons: {
@@ -16,16 +16,7 @@ export const content = {
       linkedin: "https://linkedin.com/in/dylanpiriou"
     }
   },
-
-  // About Section
-  about: {
-    title: "About me",
-    paragraphs: [
-      "Fullstack developer with a passion for creating elegant and performant user interfaces. I love transforming complex ideas into simple and intuitive experiences.",
-      "When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or sharing knowledge with the community."
-    ]
-  },
-
+  
   // Skills Section
   skills: {
     title: "My favorite tools",
@@ -131,17 +122,17 @@ export const content = {
       {
         title: "Fullstack Developer",
         company: "LATELIER",
-        period: "sept 2023 - Present",
+        period: "2023-09 / Present",
       },
       {
         title: "Frontend Developer",
         company: "GONG",
-        period: "may 2023 - jun 2023",
+        period: "2023-05 / 2023-06",
       },
       {
         title: "Frontend Developer",
         company: "DIIVII",
-        period: "dec 2022 - feb 2023",
+        period: "2022-12 / 2023-02",
       }
     ]
   },

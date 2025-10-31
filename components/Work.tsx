@@ -8,7 +8,7 @@ export default function Work() {
       <h2 className="text-2xl font-bold mb-8 text-slate-900 dark:text-white">
         {content.work.title}
       </h2>
-      <div className="space-y-8">
+      <div className="space-y-3 lg:space-y-4">
         {content.work.projects.map((project, index) => (
           <a 
             key={index} 
@@ -18,14 +18,14 @@ export default function Work() {
 			title={project.name}
             className="group block rounded-lg transition-colors duration-200"
           >
-            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 lg:gap-4">
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2">
-                  <h3 className="text-lg font-medium text-slate-900 dark:text-white">
+                  <h3 className="text-sm lg:text-base font-medium text-slate-900 dark:text-white">
                     {project.name}
                   </h3>
                 </div>
-                <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400 mb-3">
+                <p className="text-xs lg:text-sm text-slate-600 dark:text-slate-400 mb-3">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2">
