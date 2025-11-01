@@ -12,9 +12,9 @@ export default function Hero() {
 						<Image
 							src="/dylanweb.jpg"
 							fill
-							alt="Dylan - Fullstack Developer"
+							alt="Dylan Piriou - Fullstack Developer"
 							priority
-							className="object-cover backdrop-brightness-100"
+							className="object-cover"
 						></Image>
 					</div>
 					<div className="space-y-3 lg:space-y-4">

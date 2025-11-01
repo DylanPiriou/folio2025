@@ -4,7 +4,7 @@ export const content = {
     status: "Available for projects",
     name: "Dylan Piriou",
     title: "Fullstack Developer",
-    description: "Fullstack developer @ LATELIER. I turn complexity into clean, fast, user-focused web experiences. Now at 3 years of learning, building, and improving — every single day. Also an history nerd, music lover, and runner.",
+    description: "Fullstack developer @ LATELIER. I turn complexity into clean, fast, user-focused web experiences. Now at 3 years of learning, building, and improving — every single day. Also an history nerd, music lover, and runner. I'm actually looking for new challenges and opportunities to grow.",
     buttons: {
       contact: "Get in touch",
       github: "GitHub",
@@ -97,7 +97,7 @@ export const content = {
       {
         name: "La Boulangère",
         description: "E-commerce website for a French brand of organic breads and pastries, committed to local and responsible production",
-        tech: ["WordPress", "WooCoomerce", "SCSS", "WordPress"],
+        tech: ["WordPress", "WooCommerce", "SCSS", "WordPress"],
         link: "https://laboulangere.fr"
       },
       {
